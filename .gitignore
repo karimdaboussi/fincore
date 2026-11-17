@@ -1,0 +1,28 @@
+# Build outputs and dependencies
+**/target/
+**/node_modules/
+**/dist/
+bin/
+*.tsbuildinfo
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.vscode/
+.idea/
+.tools/
+
+# Test artifacts and caches
+**/artifacts/
+**/test-results/
+**/playwright-report/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db

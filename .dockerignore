@@ -1,0 +1,16 @@
+**/target
+**/node_modules
+**/dist
+**/artifacts
+**/test-results
+**/playwright-report
+.git
+.env
+.env.*
+.vscode
+.idea
+.tools
+frontend
+architecture.html
+docs
+*.log
